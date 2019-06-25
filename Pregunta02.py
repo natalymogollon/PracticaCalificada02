@@ -8,9 +8,15 @@
 # Como: Programador me gustaría saber cuales son los datos a ingresar a traves del programa 
 # Quiero: mostrar en una pantalla la inforamcion que el usuario ingrese en el programa
 
+N = []
+
 cantidad = int(input("Ingrese cantidad de personas a ingresar: "))
 for i in range(cantidad):
     nombre = input("Ingrese nombre: ")
     edad = int(input("Ingrese edad: "))
     carrera = input("Ingrese nombre de su carrera: ")
+N.append(nombre)
+N.append(edad)
+N.append(carrera)
+print(N)
 
